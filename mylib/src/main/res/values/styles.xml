@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget_Design_TabLayout">
+        <item name="tabIndicatorHeight">2dp</item>
+        <item name="tabIndicatorColor">@android:color/background_dark</item>
+        <item name="tabPadding">0dp</item>
+        <item name="tabPaddingStart">0dp</item>
+        <item name="tabPaddingTop">0dp</item>
+        <item name="tabPaddingEnd">0dp</item>
+        <item name="tabPaddingBottom">0dp</item>
+        <item name="tabIndicatorPadding">5dp</item>
+        <item name="tabTextAppearance">@style/TextAppearance_Design_Tab</item>
+        <item name="tabTextColor">@android:color/darker_gray</item>
+        <item name="tabSelectedTextColor">@android:color/background_dark</item>
+        <item name="tabMinWidth">60dp</item>
+        <item name="tabBackground" >@android:color/background_light</item>
+        <item name="tabContentStart">0dp</item>
+        <item name="tabMode">0</item>
+        <item name="tabGravity">0</item>
+    </style>
+
+    <style name="TextAppearance_Design_Tab">
+        <item name="@android:textSize">15sp</item>
+        <item name="@android:textColor">@android:color/background_dark</item>
+    </style>
+
+</resources>

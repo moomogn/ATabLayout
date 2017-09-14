@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.arno.atablayout.MainActivity">
+
+    <com.arno.mylib.TabLayout
+        android:paddingBottom="10dp"
+        android:id="@+id/main_tablayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.arno.mylib.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_viewpagerId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+</LinearLayout>
