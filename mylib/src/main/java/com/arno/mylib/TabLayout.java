@@ -1008,8 +1008,6 @@ public class TabLayout extends HorizontalScrollView {
         // If we have a MeasureSpec which allows us to decide our height, try and use the default
         // height
         final int idealHeight = dpToPx(getDefaultHeight()) + getPaddingTop() + getPaddingBottom();
-        Log.w("AAA", "onMeasure: default==" + getDefaultHeight() + "==top==" + getPaddingTop() + "==bottom==" + getPaddingBottom());
-        Log.e("AAA", "idealHeight==" + idealHeight + "==heightMeasureSpec==" + MeasureSpec.getSize(heightMeasureSpec));
         switch (MeasureSpec.getMode(heightMeasureSpec)) {
             case MeasureSpec.AT_MOST:
                 heightMeasureSpec = MeasureSpec.makeMeasureSpec(
