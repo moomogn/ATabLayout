@@ -1116,7 +1116,7 @@ public class TabLayout extends HorizontalScrollView {
         mScrollAnimator.addListener(listener);
     }
 
-    private void setSelectedTabView(int position) {
+    public void setSelectedTabView(int position) {
         final int tabCount = mTabStrip.getChildCount();
         if (position < tabCount) {
             for (int i = 0; i < tabCount; i++) {
